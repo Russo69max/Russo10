@@ -8,11 +8,13 @@ elif opçao == 2:
     print (input(f"{Nome} voce ainda n tem extrato aperte enter para fazer deposito na conta"))
     D_3 = opçao = valor = int(input(f"{Nome} quanto de deposito vc quer fazer? \n  "))
     valor_final  = input(f"{Nome} voce depositou na sua conta {valor}")
-elif opçao: 
+elif opçao==3: 
     valor = int(input(f"{Nome} quanto de deposito vc quer fazer? \n  "))
     valor_final  = input(f"{Nome} voce depositou na sua conta {valor}")
-else: i
-    print("reiniciando o programa do sistema do banco")
+else:    
+    for i in range(opçao = int(input("Digite um numero \n 1 Faça um pix \n 2-Mostrar extrato \n 3-Fazer deposito \n 4-Saia do sistema "))) :
+        print("reiniciando o programa do sistema do banco")
+
     
 
 
