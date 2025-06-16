@@ -1,5 +1,5 @@
 Nome = input("Qual seu nome? ")
-opçao = int(input("Digite um numero \n 1 Faça um pix \n 2-Mostrar extrato \n 3-Fazer deposito \n 4-Saia do sistema "))
+opçao = 2
 while opçao != 4:
     opçao = int(input("Digite um numero \n 1 Faça um pix \n 2-Mostrar extrato \n 3-Fazer deposito \n 4-Saia do sistema "))
     if opçao==1:
@@ -15,7 +15,6 @@ while opçao != 4:
             valor_final  = input(f"{Nome} voce depositou na sua conta {valor}")
     else:    
         print("reiniciando o programa do sistema do banco")
-
     
 
 
